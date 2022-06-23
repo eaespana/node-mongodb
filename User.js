@@ -41,7 +41,7 @@ const userSchema = new Schema({
 });
 
 userSchema.methods.sayHi = function() {
-    console.log(`Hi. My name is ${this.name}`);
+    console.log(`Hi. My namé is ${this.name}`);
 }
 
 userSchema.statics.findByName = function(name) {
